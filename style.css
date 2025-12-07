@@ -1,25 +1,84 @@
-* {
-margin :0px;
-padding :0px;}
-.header {
-background-color : white;
-height :50px;
-width :700px;}
-#logo {
-display :inline;
-font-size :18px;}
-a {
-margin-right :75px;
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f9f9f9;
 }
-footer {
-background-color :blue;
-color :white;
-height :100px;
-width :700px;
-margin-top :450px;}
-#seconddiv {
-background-image :url("fosk_photo");
-background-size :cover;
-height :500px;
-width :700px;
+
+nav {
+  background-color: #333;
+  padding: 15px 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+
+header {
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+p, li {
+  color: #555;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.gallery img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+form {
+  display: inline-block;
+  text-align: left;
+  margin-top: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0 15px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
 }
